@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Example Bootstrap Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ 
+<!-- If you want to define your own style rules, you can do so in your own stylesheet by adding it as below -->
+    <link rel="stylesheet href="styles/mystyles.css">  
+
+  </head>
+  <body>
+
+    <main role="main">
+
+     <div class="container">
+    <!-- Start a row -->
+    <div class="row">
+        <!-- Start a column -->
+   <div class="col">
+       <!-- Contents of column -->
+       The first column
+   </div>
+   <!-- Start a second column -->
+   <div class="col">
+       The second column
+        </div>
+    </div>
+</div>
+
+    </main>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+  </body>
+</html>
