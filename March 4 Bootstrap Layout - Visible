@@ -5,22 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Example Bootstrap Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <style>
-        div[class="row"] {
-        outline: 1px dotted rgba(0, 0, 0, 0.25);
-    }
 
-        div[class^="col-"] {
-        background-color: rgba(255, 0, 0, 0.2);
-        outline: 1px dotted rgba(0, 0, 0, 0.5);
-        }
-</style>
+    <style>
+	div[class="row"] {
+    	outline: 1px dotted rgba(0, 0, 0, 0.25);
+		}
+
+	div[class^="col-"] {
+    	background-color: rgba(255, 0, 0, 0.2);
+    	outline: 1px dotted rgba(0, 0, 0, 0.5);
+	}
+    </style>
   </head>
   <body>
 
     <main role="main">
 
-      <!-- Web Page Content Goes Here -->
+     <div class="container">
+    <!-- Start a row -->
+    <div class="row">
+        <!-- Start a column -->
+   <div class="col">
+       <!-- Contents of column -->
+       The first column
+   </div>
+   <!-- Start a second column -->
+   <div class="col">
+       The second column
+        </div>
+    </div>
+</div>
 
     </main>
 
