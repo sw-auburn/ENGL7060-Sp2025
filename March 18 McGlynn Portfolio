@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizzie McGlynn Professional Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .nav-links {
+            margin: 20px 0;
+        }
+        .portfolio-item {
+            margin: 10px;
+        }
+        .copyright {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Name</h1>
+        <img src="your-photo.jpg" alt="Your Photo" class="img-fluid rounded-circle" style="width: 150px; height: 150px;">
+        
+        <nav class="nav-links">
+            <a href="#about" class="btn btn-primary">About</a>
+            <a href="#portfolio" class="btn btn-primary">Portfolio</a>
+            <a href="#contact" class="btn btn-primary">Contact</a>
+        </nav>
+        
+        <div class="row">
+            <div class="col-4 portfolio-item">
+                <a href="portfolio-item1.html"><img src="../images/portfolio-item1.png" alt="Portfolio Item 1" class="img-fluid"></a>
+            </div>
+            <div class="col-4 portfolio-item">
+                <a href="portfolio-item2.html"><img src="../images/portfolio-item2.png" alt="Portfolio Item 2" class="img-fluid"></a>
+            </div>
+            <div class="col-4 portfolio-item">
+                <a href="portfolio-item3.html"><img src="../images/portfolio-item3.png" alt="Portfolio Item 3" class="img-fluid"></a>
+            </div>
+        </div>
+        
+        <footer class="copyright">
+            <p>&copy; 2025 Lizzie McGlynn. All rights reserved.</p>
+        </footer>
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
